@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit&family=Red+Hat+Display:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2.7rem;
+  border-radius: 6px 0 0 6px;
+}
+.card2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2.7rem;
+  border-radius: 0 0 0 0;
+}
+.card3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2.7rem;
+  border-radius: 0 6px 6px 0;
+}
+.card1 img {
+  margin-bottom: 2rem;
+}
+.card1 h1 {
+  margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.card1 p {
+  margin-bottom: 10rem;
+  line-height: 2rem;
+}
+.card2 img {
+  margin-bottom: 2rem;
+}
+.card2 h1 {
+  margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.card2 p {
+  margin-bottom: 10rem;
+  line-height: 2rem;
+}
+.card3 img {
+  margin-bottom: 2rem;
+}
+.card3 h1 {
+  margin-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.card3 p {
+  margin-bottom: 10rem;
+  line-height: 2rem;
+}
+button {
+  background-color: hsl(0, 0%, 95%) !important;
+}
+.btn1 {
+  color: hsl(31, 77%, 52%);
+  padding: 10px 15px 10px 15px;
+}
+.btn2 {
+  color: hsl(184, 100%, 22%);
+  padding: 10px 15px 10px 15px;
+}
+.btn3 {
+  color: hsl(179, 100%, 13%);
+  padding: 10px 15px 10px 15px;
+}
+.btn1:hover {
+  background-color: hsl(31, 77%, 52%) !important;
+  color: hsl(0, 0%, 95%) !important;
+  border: 1px solid hsl(0, 0%, 95%) !important;
+}
+.btn2:hover {
+  background-color: hsl(184, 100%, 22%) !important;
+  color: hsl(0, 0%, 95%) !important;
+  border: 1px solid hsl(0, 0%, 95%) !important;
+}
+.btn3:hover {
+  background-color: hsl(179, 100%, 13%) !important;
+  color: hsl(0, 0%, 95%) !important;
+  border: 1px solid hsl(0, 0%, 95%) !important;
+}
+.attribution {
+    color: hsl(179, 100%, 13%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .attribution a {
+    color: hsl(31, 77%, 52%);
+  }
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .card1 {
+    padding: 6.1rem;
+  }
+  .card2 {
+    padding: 6.1rem;
+  }
+  .card3 {
+    padding: 6.1rem;
+  }
+  .attribution {
+    color: hsl(179, 100%, 13%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .attribution a {
+    color: hsl(31, 77%, 52%);
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .card1 {
+    padding: 2.5rem;
+  }
+  .card2 {
+    padding: 2.5rem;
+  }
+  .card3 {
+    padding: 2.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  .card1 {
+    padding: 0.4rem;
+  }
+  .card2 {
+    padding: 0.4rem;
+  }
+  .card3 {
+    padding: 0.2rem;
+  }
+  .attribution {
+    color: hsl(179, 100%, 13%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .attribution a {
+    color: hsl(31, 77%, 52%);
+  }
+}
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+  .container {
+    height: 220vh;
+    padding: 40px !important ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: start;
+  }
+  .card1 {
+    padding: 3.4rem;
+    height: 70vh !important;
+    border-radius: 6px 6px 0 0;
+  }
+  .card2 {
+    padding: 3.4rem;
+    height: 70vh !important;
+    border-radius: 0 0 0 0;
+  }
+  .card3 {
+    padding: 3.4rem;
+    height: 70vh !important;
+    border-radius: 0 0 6px 6px;
+  }
+  .card1 p {
+    margin-bottom: 2rem;
+  }
+  .card2 p {
+    margin-bottom: 2rem;
+  }
+  .card3 p {
+    margin-bottom: 2rem;
+  }
+  .attribution {
+    color: hsl(179, 100%, 13%);
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  .attribution a {
+    color: hsl(31, 77%, 52%);
+  }
+}
