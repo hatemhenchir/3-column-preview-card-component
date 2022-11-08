@@ -206,7 +206,7 @@ button {
     color: hsl(31, 77%, 52%);
   }
 }
-@media all and (max-width: 375px) and (min-width: 320px) {
+@media all and (max-width: 375px)  {
   .container {
     height: auto;
     padding: 50px 50px;
